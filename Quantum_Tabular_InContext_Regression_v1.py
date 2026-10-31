@@ -96,9 +96,9 @@ VERSION = "QUANTUM_TABULAR_INCONTEXT_REGRESSION_V1_20261031"
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4712_k87.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4712_k87_loto_2978.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4712_k87_loto_plus_1734.csv"),
+    Path("/data/loto7_4712_k87.csv"),
+    Path("/data/loto7_4712_k87_loto_2978.csv"),
+    Path("/data/loto7_4712_k87_loto_plus_1734.csv"),
 )
 
 
@@ -3030,7 +3030,7 @@ Greska unitarnosti memorije: 1.110e-15
 Greska eksplicitnih Qiskit amplituda: 2.289e-16
 Greska verovatnoce pomocne grane: 5.551e-17
 
-Kontrolne tacke: /Users/4c/Desktop/GHQ/Astra/Quantum_Tabular_InContext_Regression/Quantum_Tabular_InContext_Regression_V1_checkpoints
+Kontrolne tacke: /Quantum_Tabular_InContext_Regression/Quantum_Tabular_InContext_Regression_V1_checkpoints
 
 ======================================================================
 PRIPREMA KONTEKSTA: loto7_4712_k87.csv
@@ -3160,7 +3160,7 @@ Optimizator: STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
 DIJAGNOSTIKA: stacionarnost nije potvrdjena; koristi se najbolji vazeci kandidat.
 
 REZULTAT: loto7_4712_k87.csv
-NEXT: 6 9 14 19 27 29 30
+NEXT: 6 x 14 y 27 z 30
 Jacina konteksta: 0.20
 Poznatih istorijskih prelaza u kontekstu: 4711
 Validacioni NLL: 16.757619823
@@ -3364,7 +3364,7 @@ Optimizator: STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
 DIJAGNOSTIKA: stacionarnost nije potvrdjena; koristi se najbolji vazeci kandidat.
 
 REZULTAT: loto7_4712_k87_loto_2978.csv
-NEXT: 6 9 14 15 22 29 32
+NEXT: 6 x 14 y 22 z 32
 Jacina konteksta: 0.20
 Poznatih istorijskih prelaza u kontekstu: 2977
 Validacioni NLL: 16.738342143
@@ -3565,7 +3565,7 @@ Optimizator: STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
 DIJAGNOSTIKA: stacionarnost nije potvrdjena; koristi se najbolji vazeci kandidat.
 
 REZULTAT: loto7_4712_k87_loto_plus_1734.csv
-NEXT: 3 7 13 26 32 34 36
+NEXT: 3 x 13 y 32 z 36
 Jacina konteksta: 0.20
 Poznatih istorijskih prelaza u kontekstu: 1733
 Validacioni NLL: 16.754176145
@@ -3641,9 +3641,9 @@ Rezultat nije menjan radi uklanjanja dijagnostickog obrasca.
 
 ======================================================================
 ZAVRSNI NEXT REZULTATI
-loto7_4712_k87.csv | NEXT: 6 9 14 19 27 29 30 | kontekst: 0.20 | test NLL: 16.762710222
-loto7_4712_k87_loto_2978.csv | NEXT: 6 9 14 15 22 29 32 | kontekst: 0.20 | test NLL: 16.728661964
-loto7_4712_k87_loto_plus_1734.csv | NEXT: 3 7 13 26 32 34 36 | kontekst: 0.20 | test NLL: 16.708049043
+loto7_4712_k87.csv | NEXT: 6 x 14 y 27 z 30 | kontekst: 0.20 | test NLL: 16.762710222
+loto7_4712_k87_loto_2978.csv | NEXT: 6 x 14 y 22 z 32 | kontekst: 0.20 | test NLL: 16.728661964
+loto7_4712_k87_loto_plus_1734.csv | NEXT: 3 x 13 y 32 z 36 | kontekst: 0.20 | test NLL: 16.708049043
 """
 
 
